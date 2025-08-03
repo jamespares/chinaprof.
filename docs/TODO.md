@@ -1,0 +1,7 @@
+- adjust colour scheme - orange/red is only for very important buttons - core functionality (must be the minority)
+- speed up loading (API routes seem to be quite slow right now)
+- ensure translation system is comprehensive (everything gets translated) - NOT UNTIL COPY FINALISED
+- add avatars (need to add images to public folder before this is possible)
+- create feature which converts data into prompt for making PPTs for parents evenings/open classes - takes data as input and outputs markdown prompt for AI presentation generator - make teachers lives as easy as possible - designed with AI-use in mind :) 
+- create admin dashboard for admin user so they can see this data for all users (all teachers using the software) (PHASE 2 DEVELOPMENT IDEA - NOT YET)
+- add a set up stage so teachers can choose which exams their students do and if they have portfolios etc (tailored to each teacher's use case) (NOT YET)

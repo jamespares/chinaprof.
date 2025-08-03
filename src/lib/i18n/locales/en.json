@@ -1,0 +1,177 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "export": "Export",
+    "search": "Search",
+    "filter": "Filter",
+    "all": "All",
+    "none": "None",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "date": "Date",
+    "name": "Name",
+    "class": "Class",
+    "score": "Score",
+    "percentage": "Percentage",
+    "rank": "Rank",
+    "student": "Student",
+    "subject": "Subject",
+    "complete": "Complete",
+    "incomplete": "Incomplete",
+    "notSet": "Not set"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "students": "Students",
+    "allStudents": "All Students",
+    "classes": "Classes",
+    "myClasses": "My Classes",
+    "subjects": "Subjects",
+    "mySubjects": "My Subjects",
+    "lessonPlans": "Lesson Plans",
+    "homework": "Homework",
+    "weeklyTests": "Weekly Tests",
+    "weeklySpellingTest": "Weekly Spelling Test",
+    "essayMarking": "Essay Marking",
+    "grammarErrors": "Grammar Errors",
+    "grammar": "Grammar",
+    "comments": "Comments",
+    "reports": "Reports",
+    "parentsEvening": "Parents Evening",
+    "openClass": "Open Class",
+    "assembly": "Assembly",
+    "meetings": "Meetings",
+    "settings": "Settings",
+    "sections": {
+      "overview": "Overview",
+      "manage": "Manage",
+      "analysis": "Analysis",
+      "planning": "Planning",
+      "summary": "Summary",
+      "management": "Management",
+      "operations": "Operations"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Welcome to ChinaProf - your local-first teaching assistant",
+    "totalStudents": "Total Students",
+    "activeSubjects": "Active Subjects",
+    "homeworkCompletion": "Homework Completion",
+    "recentComments": "Recent Comments",
+    "homework": {
+      "title": "Homework Tracker",
+      "description": "Daily completion tracking",
+      "details": "Track daily homework completion with RAG grid view and automatic percentage calculations.",
+      "action": "Open Homework"
+    },
+    "grammar": {
+      "title": "Grammar Errors",
+      "description": "Error tracking & analytics",
+      "details": "Log common CN-ESL errors and view detailed analytics to target your teaching focus.",
+      "action": "View Analytics"
+    },
+    "tests": {
+      "title": "Weekly Tests",
+      "description": "Test scores & rankings",
+      "details": "Create tests, rapid score entry, and view ranked student performance tables.",
+      "action": "Manage Tests"
+    },
+    "essays": {
+      "title": "Essay Marking",
+      "description": "AI-powered feedback",
+      "details": "Paste essays for AI analysis with detailed feedback and error identification.",
+      "action": "Mark Essays"
+    },
+    "comments": {
+      "title": "Comments",
+      "description": "Student feedback notes",
+      "details": "Rich-text comments with evidence tracking and AI summary generation.",
+      "action": "Manage Comments"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "addStudents": "Add Students",
+      "createSubjects": "Create Subjects",
+      "viewReports": "View Reports"
+    }
+  },
+  "homework": {
+    "title": "Homework Tracker",
+    "subtitle": "Mark homework completion for each student",
+    "selectDate": "Select Date",
+    "dateDescription": "Choose the date to track homework completion",
+    "rapidEntry": "Rapid Entry",
+    "exitRapidMode": "Exit Rapid Mode",
+    "rapidModeActive": "Rapid Entry Mode Active",
+    "rapidInstructions": "Use keyboard shortcuts to quickly mark homework completion",
+    "clickInstructions": "Click on each student to mark their homework as complete, incomplete, or not set",
+    "noStudents": "No students found. Add students first to track homework."
+  },
+  "grammarErrors": {
+    "title": "Grammar Errors",
+    "subtitle": "Log and track common Chinese-English grammar errors",
+    "logErrors": "Log Errors",
+    "analytics": "Analytics & Insights",
+    "logNewError": "Log Grammar Error",
+    "logDescription": "Quickly log common grammar mistakes made by students",
+    "lessonReference": "Lesson Reference (Optional)",
+    "grammarError": "Grammar Error",
+    "selectError": "Select common error type",
+    "logButton": "Log Grammar Error",
+    "recentErrors": "Recent Grammar Errors for",
+    "noErrors": "No grammar errors logged for this student yet.",
+    "analytics": {
+      "title": "Grammar Error Analytics",
+      "subtitle": "Identify patterns and target areas for improvement",
+      "totalErrors": "Total Errors",
+      "studentsAffected": "Students Affected",
+      "errorTypes": "Error Types",
+      "avgPerStudent": "Avg per Student",
+      "mostCommon": "Most Common Errors",
+      "studentsNeedingSupport": "Students Needing Most Support"
+    }
+  },
+  "weeklyTests": {
+    "title": "Weekly Tests",
+    "subtitle": "Create and score tests with rapid entry and auto-percentage calculation",
+    "loading": "Loading tests...",
+    "overview": "Test Overview",
+    "overviewDesc": "Manage your weekly tests and track student performance",
+    "noStudentsTitle": "No students yet",
+    "noStudentsDesc": "Add students first before creating tests for them.",
+    "noTestsTitle": "No tests created yet",
+    "noTestsDesc": "Create your first weekly test to start tracking student performance.",
+    "createFirst": "Create Your First Test",
+    "table": {
+      "testName": "Test Name",
+      "maxScore": "Max Score",
+      "completion": "Completion",
+      "average": "Class Average",
+      "created": "Created",
+      "actions": "Quick Actions"
+    },
+    "title": "Weekly Tests",
+    "subtitle": "Create tests and track student performance",
+    "createTest": "Create New Test",
+    "testName": "Test Name",
+    "maxScore": "Maximum Score",
+    "rapidScore": "Rapid Score",
+    "results": "Results",
+    "studentRankings": "Student Rankings",
+    "noTests": "No weekly tests created yet. Create your first test to get started."
+  },
+  "language": {
+    "english": "English",
+    "chinese": "中文",
+    "connected": "Connected"
+  },
+  "header": {
+    "tagline": "Local-first teacher productivity"
+  }
+}

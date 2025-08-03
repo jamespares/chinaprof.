@@ -1,0 +1,177 @@
+{
+  "common": {
+    "loading": "加载中...",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "create": "创建",
+    "export": "导出",
+    "search": "搜索",
+    "filter": "筛选",
+    "all": "全部",
+    "none": "无",
+    "today": "今天",
+    "yesterday": "昨天",
+    "date": "日期",
+    "name": "姓名",
+    "class": "班级",
+    "score": "分数",
+    "percentage": "百分比",
+    "rank": "排名",
+    "student": "学生",
+    "subject": "科目",
+    "complete": "完成",
+    "incomplete": "未完成",
+    "notSet": "未设置"
+  },
+  "navigation": {
+    "dashboard": "仪表板",
+    "students": "学生管理",
+    "allStudents": "所有学生",
+    "classes": "班级管理",
+    "myClasses": "我的班级",
+    "subjects": "科目管理",
+    "mySubjects": "我的科目",
+    "lessonPlans": "课程计划",
+    "homework": "作业跟踪",
+    "weeklyTests": "周测验",
+    "weeklySpellingTest": "周拼写测试",
+    "essayMarking": "作文批改",
+    "grammarErrors": "语法错误",
+    "grammar": "语法",
+    "comments": "评论记录",
+    "reports": "报告分析",
+    "parentsEvening": "家长会",
+    "openClass": "公开课",
+    "assembly": "集会",
+    "meetings": "会议",
+    "settings": "设置",
+    "sections": {
+      "overview": "概览",
+      "manage": "管理",
+      "analysis": "分析",
+      "planning": "计划",
+      "summary": "总结",
+      "management": "管理设置",
+      "operations": "日常教学"
+    }
+  },
+  "dashboard": {
+    "title": "仪表板",
+    "subtitle": "欢迎使用 ChinaProf - 您的本地优先教学助手",
+    "totalStudents": "学生总数",
+    "activeSubjects": "活跃科目",
+    "homeworkCompletion": "作业完成率",
+    "recentComments": "最近评论",
+    "homework": {
+      "title": "作业跟踪器",
+      "description": "每日完成情况跟踪",
+      "details": "通过 RAG 网格视图跟踪每日作业完成情况并自动计算百分比。",
+      "action": "打开作业"
+    },
+    "grammar": {
+      "title": "语法错误",
+      "description": "错误跟踪和分析",
+      "details": "记录常见的中英语法错误并查看详细分析以针对性教学。",
+      "action": "查看分析"
+    },
+    "tests": {
+      "title": "周测验",
+      "description": "测试分数和排名",
+      "details": "创建测试，快速录入分数，查看学生表现排名表。",
+      "action": "管理测试"
+    },
+    "essays": {
+      "title": "作文批改",
+      "description": "AI 驱动的反馈",
+      "details": "粘贴作文进行 AI 分析，获得详细反馈和错误识别。",
+      "action": "批改作文"
+    },
+    "comments": {
+      "title": "评论",
+      "description": "学生反馈笔记",
+      "details": "富文本评论与证据跟踪和 AI 摘要生成。",
+      "action": "管理评论"
+    },
+    "quickActions": {
+      "title": "快速操作",
+      "addStudents": "添加学生",
+      "createSubjects": "创建科目",
+      "viewReports": "查看报告"
+    }
+  },
+  "homework": {
+    "title": "作业跟踪器",
+    "subtitle": "标记每个学生的作业完成情况",
+    "selectDate": "选择日期",
+    "dateDescription": "选择要跟踪作业完成情况的日期",
+    "rapidEntry": "快速录入",
+    "exitRapidMode": "退出快速模式",
+    "rapidModeActive": "快速录入模式已激活",
+    "rapidInstructions": "使用键盘快捷键快速标记作业完成情况",
+    "clickInstructions": "点击每个学生来标记他们的作业为完成、未完成或未设置",
+    "noStudents": "未找到学生。请先添加学生来跟踪作业。"
+  },
+  "grammarErrors": {
+    "title": "语法错误",
+    "subtitle": "记录和跟踪常见的中英语法错误",
+    "logErrors": "记录错误",
+    "analytics": "分析与洞察",
+    "logNewError": "记录语法错误",
+    "logDescription": "快速记录学生常犯的语法错误",
+    "lessonReference": "课程参考（可选）",
+    "grammarError": "语法错误",
+    "selectError": "选择常见错误类型",
+    "logButton": "记录语法错误",
+    "recentErrors": "最近的语法错误",
+    "noErrors": "该学生尚未记录语法错误。",
+    "analytics": {
+      "title": "语法错误分析",
+      "subtitle": "识别模式并针对需要改进的领域",
+      "totalErrors": "错误总数",
+      "studentsAffected": "受影响学生",
+      "errorTypes": "错误类型",
+      "avgPerStudent": "每学生平均",
+      "mostCommon": "最常见错误",
+      "studentsNeedingSupport": "最需要支持的学生"
+    }
+  },
+  "weeklyTests": {
+    "title": "周测验",
+    "subtitle": "通过快速录入和自动百分比计算创建并评分",
+    "loading": "加载测验...",
+    "overview": "测验概览",
+    "overviewDesc": "管理每周测验并跟踪学生表现",
+    "noStudentsTitle": "尚无学生",
+    "noStudentsDesc": "请先添加学生，然后创建测验。",
+    "noTestsTitle": "尚未创建测验",
+    "noTestsDesc": "创建您的第一个周测验以开始跟踪学生表现。",
+    "createFirst": "创建首个测验",
+    "table": {
+      "testName": "测验名称",
+      "maxScore": "满分",
+      "completion": "完成率",
+      "average": "班级平均",
+      "created": "创建日期",
+      "actions": "快捷操作"
+    },
+    "title": "周测验",
+    "subtitle": "创建测试并跟踪学生表现",
+    "createTest": "创建新测试",
+    "testName": "测试名称",
+    "maxScore": "最高分",
+    "rapidScore": "快速评分",
+    "results": "结果",
+    "studentRankings": "学生排名",
+    "noTests": "尚未创建周测验。创建您的第一个测试开始使用。"
+  },
+  "language": {
+    "english": "English",
+    "chinese": "中文",
+    "connected": "已连接"
+  },
+  "header": {
+    "tagline": "本地优先教师生产力工具"
+  }
+}

@@ -1,0 +1,607 @@
+
+> chinaprof-app@0.1.0 dev
+> next dev
+
+ ⚠ Warning: Found multiple lockfiles. Selecting /Users/jamespares/package-lock.json.
+   Consider removing the lockfiles at:
+   * /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/package-lock.json
+
+   ▲ Next.js 15.4.5
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.3.7:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 2.6s
+ ○ Compiling /api/dashboard ...
+ ✓ Compiled /api/dashboard in 2.3s (288 modules)
+Database schema initialized / migrated successfully
+ GET /api/dashboard 200 in 6186ms
+ ○ Compiling /grammar-errors ...
+ ✓ Compiled /grammar-errors in 8.9s (994 modules)
+ GET /grammar-errors 200 in 9743ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 537ms (961 modules)
+ GET /dashboard 200 in 1146ms
+ ✓ Compiled /api/dashboard in 459ms (579 modules)
+Database schema initialized / migrated successfully
+ GET /api/dashboard 200 in 788ms
+ GET /api/dashboard 200 in 106ms
+ GET /dashboard 200 in 880ms
+ ○ Compiling /students ...
+ ✓ Compiled /students in 1589ms (967 modules)
+ GET /students 200 in 2583ms
+ ○ Compiling /subjects ...
+ ✓ Compiled /subjects in 803ms (990 modules)
+ GET /subjects 200 in 1983ms
+ ○ Compiling /homework ...
+ ✓ Compiled /homework in 3.7s (986 modules)
+ GET /homework 200 in 4926ms
+ ○ Compiling /weekly-tests ...
+ ✓ Compiled /weekly-tests in 2.4s (1037 modules)
+ GET /weekly-tests 200 in 3141ms
+ ○ Compiling /essay-marking ...
+ ✓ Compiled /essay-marking in 2.5s (1055 modules)
+ GET /essay-marking 200 in 3277ms
+ ○ Compiling /grammar-errors ...
+ ✓ Compiled /grammar-errors in 734ms (607 modules)
+ GET /grammar-errors 200 in 1842ms
+ ○ Compiling /settings ...
+ ✓ Compiled /settings in 871ms (1094 modules)
+ GET /settings 200 in 2017ms
+ ✓ Compiled in 1552ms (487 modules)
+ GET /dashboard 200 in 156ms
+ ✓ Compiled in 1896ms (1011 modules)
+ GET /dashboard 200 in 324ms
+ ✓ Compiled in 901ms (1011 modules)
+ GET /dashboard 200 in 231ms
+ ✓ Compiled in 569ms (487 modules)
+ GET /dashboard 200 in 49ms
+ ✓ Compiled in 2.2s (487 modules)
+ GET /dashboard 200 in 202ms
+ ✓ Compiled in 732ms (1011 modules)
+ GET /dashboard 200 in 127ms
+ ✓ Compiled in 590ms (1011 modules)
+ GET /dashboard 200 in 151ms
+ ✓ Compiled in 615ms (1011 modules)
+ GET /dashboard 200 in 290ms
+ ✓ Compiled in 1050ms (1011 modules)
+ GET /dashboard 200 in 230ms
+ ✓ Compiled in 556ms (1011 modules)
+ GET /dashboard 200 in 160ms
+ ✓ Compiled in 1066ms (1011 modules)
+ GET /dashboard 200 in 134ms
+ ✓ Compiled in 1033ms (1011 modules)
+ GET /dashboard 200 in 142ms
+ ✓ Compiled in 1414ms (1011 modules)
+ GET /dashboard 200 in 155ms
+ ✓ Compiled in 465ms (487 modules)
+ GET /dashboard 200 in 91ms
+ ✓ Compiled in 486ms (487 modules)
+ GET /dashboard 200 in 67ms
+ ✓ Compiled in 605ms (487 modules)
+ GET /dashboard 200 in 53ms
+ ✓ Compiled in 371ms (487 modules)
+ GET /dashboard 200 in 47ms
+ ✓ Compiled in 914ms (487 modules)
+ GET /dashboard 200 in 76ms
+ GET /dashboard 200 in 850ms
+ ○ Compiling /grammar-errors ...
+ ✓ Compiled /grammar-errors in 1601ms (556 modules)
+ GET /grammar-errors 200 in 3632ms
+ GET /dashboard 200 in 2667ms
+ ○ Compiling /settings ...
+ ✓ Compiled /settings in 1761ms (570 modules)
+ GET /settings 200 in 3720ms
+ GET /dashboard 200 in 1420ms
+ ✓ Compiled in 2s (1011 modules)
+ GET /dashboard 200 in 314ms
+ ✓ Compiled in 4.9s (1011 modules)
+ GET /dashboard 200 in 2263ms
+ GET /dashboard 200 in 650ms
+ ○ Compiling /grammar-errors ...
+ ✓ Compiled /grammar-errors in 805ms (556 modules)
+ GET /grammar-errors 200 in 1353ms
+ GET /grammar-errors 200 in 51ms
+ ○ Compiling /api/subjects ...
+ ✓ Compiled /api/subjects in 4s (1056 modules)
+Database schema initialized / migrated successfully
+ GET /api/subjects 200 in 5178ms
+ GET /api/grammar-errors 200 in 5228ms
+ GET /api/students 200 in 5261ms
+ GET /api/subjects 200 in 49ms
+ GET /api/grammar-errors 200 in 64ms
+ GET /api/students 200 in 79ms
+ ○ Compiling /essay-marking ...
+ ✓ Compiled /essay-marking in 937ms (566 modules)
+ GET /essay-marking 200 in 1372ms
+ GET /essay-marking 200 in 42ms
+ ✓ Compiled /api/subjects in 382ms (589 modules)
+ ✓ Compiled in 777ms (473 modules)
+Database schema initialized / migrated successfully
+ GET /api/students 200 in 1860ms
+ GET /api/subjects 200 in 1880ms
+ GET /api/essay-feedback 200 in 1901ms
+ GET /api/subjects 200 in 27ms
+ GET /api/essay-feedback 200 in 39ms
+ GET /api/students 200 in 49ms
+ GET /grammar-errors 200 in 138ms
+ GET /api/students 200 in 20ms
+ ✓ Compiled /api/grammar-errors in 249ms (595 modules)
+Database schema initialized / migrated successfully
+ GET /api/subjects 200 in 492ms
+ GET /api/students 200 in 468ms
+ GET /api/grammar-errors 200 in 518ms
+ GET /api/subjects 200 in 34ms
+ GET /api/grammar-errors 200 in 15ms
+ ○ Compiling /lesson-plans ...
+ ✓ Compiled /lesson-plans in 720ms (1102 modules)
+ GET /lesson-plans 200 in 1093ms
+Database schema initialized / migrated successfully
+ GET /api/subjects 200 in 132ms
+ GET /api/subjects 200 in 127ms
+ ○ Compiling /api/lesson-plans ...
+ ✓ Compiled /planning/parents-evening in 1442ms (1113 modules)
+Database schema initialized / migrated successfully
+ GET /api/lesson-plans?subjectId=4 200 in 1777ms
+ GET /planning/parents-evening 200 in 1246ms
+ ○ Compiling /planning/open-class ...
+ ✓ Compiled /planning/open-class in 554ms (1122 modules)
+ GET /planning/open-class 200 in 957ms
+ ○ Compiling /planning/assembly ...
+ ✓ Compiled /planning/assembly in 610ms (1133 modules)
+ GET /planning/assembly 200 in 786ms
+ ⨯ SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: '/planning/assembly'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 12.3s (1401 modules)
+ GET /planning/assembly 500 in 12778ms
+ GET /planning/assembly 200 in 186ms
+ GET /planning/assembly 200 in 48ms
+ GET /planning/assembly 200 in 48ms
+ GET /planning/assembly 200 in 672ms
+ ✓ Compiled in 5s (1415 modules)
+ GET /planning/assembly 200 in 756ms
+ ✓ Compiled in 1601ms (1415 modules)
+ GET /planning/assembly 200 in 136ms
+ ✓ Compiled in 958ms (1415 modules)
+ GET /planning/assembly 200 in 253ms
+ ○ Compiling /planning/meetings ...
+ ✓ Compiled /planning/meetings in 2s (1412 modules)
+ GET /planning/meetings 200 in 3080ms
+ GET /planning/meetings 200 in 460ms
+ ○ Compiling /reports ...
+ ✓ Compiled /reports in 2.5s (1331 modules)
+ GET /reports 200 in 3082ms
+ ○ Compiling /api/students ...
+ ✓ Compiled /api/students in 1612ms (700 modules)
+Database schema initialized / migrated successfully
+ GET /api/students 200 in 2913ms
+ GET /reports 200 in 2774ms
+ GET /api/students 200 in 172ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 3.2s (671 modules)
+ GET /dashboard 200 in 4176ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.2s (1329 modules)
+ GET / 307 in 4550ms
+ ✓ Compiled in 2s (1343 modules)
+ GET /reports 200 in 214ms
+ ✓ Compiled in 1287ms (1343 modules)
+ GET /reports 200 in 256ms
+ ✓ Compiled in 1175ms (1343 modules)
+ GET /reports 200 in 219ms
+ ✓ Compiled in 1451ms (1343 modules)
+ GET /reports 200 in 228ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 3.2s (683 modules)
+ GET /dashboard 200 in 3693ms
+ GET /reports 200 in 543ms
+ ○ Compiling /api/students ...
+ ✓ Compiled /api/students in 1292ms (694 modules)
+Database schema initialized / migrated successfully
+ GET /api/students 200 in 1642ms
+ ✓ Compiled in 1586ms (1362 modules)
+ GET /reports 200 in 355ms
+ ✓ Compiled in 1867ms (1362 modules)
+ GET /reports 200 in 266ms
+ ✓ Compiled in 752ms (1354 modules)
+ GET /reports 200 in 196ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 860ms (671 modules)
+ GET /dashboard 200 in 3139ms
+ GET /reports 200 in 300ms
+ ○ Compiling /api/students ...
+ ✓ Compiled /api/students in 517ms (694 modules)
+Database schema initialized / migrated successfully
+(node:36539) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 SIGINT listeners added to [process]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:36539) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 SIGTERM listeners added to [process]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+ GET /api/students 200 in 850ms
+ GET /reports 200 in 463ms
+ GET /api/students 200 in 29ms
+ ✓ Compiled in 2.9s (1354 modules)
+ GET /reports 200 in 342ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 2.8s (671 modules)
+ GET /dashboard 200 in 4858ms
+ ✓ Compiled in 3.8s (1331 modules)
+ GET /reports 200 in 1017ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 604ms (671 modules)
+ GET /dashboard 200 in 1286ms
+ ✓ Compiled in 2.1s (1331 modules)
+ GET /reports 200 in 269ms
+ ✓ Compiled in 1245ms (1331 modules)
+ GET /reports 200 in 201ms
+ GET /reports 200 in 562ms
+ ✓ Compiled in 3.6s (668 modules)
+ GET /reports 200 in 749ms
+ ✓ Compiled in 25.7s (1331 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /reports 200 in 482ms
+ GET /reports 200 in 916ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /api/students in 3.1s (680 modules)
+ ✓ Compiled (688 modules)
+Database schema initialized / migrated successfully
+ GET /api/students 200 in 4186ms
+ GET /favicon.ico 200 in 4759ms
+ GET /reports 200 in 1288ms
+ ✓ Compiled in 2.9s (1356 modules)
+ GET /reports 200 in 366ms
+ ✓ Compiled in 2.6s (1356 modules)
+ GET /reports 200 in 219ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 1246ms (671 modules)
+ GET /dashboard 200 in 2314ms
+ GET /reports 200 in 1015ms
+ ○ Compiling /essay-marking ...
+ ✓ Compiled /essay-marking in 1467ms (677 modules)
+ GET /essay-marking 200 in 1796ms
+ GET /essay-marking 200 in 30ms
+ ○ Compiling /api/subjects ...
+ ✓ Compiled /api/subjects in 1324ms (700 modules)
+ ✓ Compiled (704 modules)
+Database schema initialized / migrated successfully
+ GET /api/essay-feedback 200 in 2920ms
+ GET /api/subjects 200 in 2948ms
+ GET /api/students 200 in 2969ms
+ GET /api/essay-feedback 200 in 119ms
+ GET /api/students 200 in 131ms
+ GET /api/subjects 200 in 138ms
+ GET /essay-marking 200 in 453ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 648ms (712 modules)
+ GET /dashboard 200 in 803ms
+ ○ Compiling /api/dashboard ...
+ ✓ Compiled /api/dashboard in 1089ms (714 modules)
+Database schema initialized / migrated successfully
+ GET /api/dashboard 200 in 1161ms
+ GET /dashboard 200 in 109ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 6.1s (1340 modules)
+ GET /favicon.ico 200 in 7718ms
+ GET /dashboard 200 in 7798ms
+ GET /apple-touch-icon-precomposed.png 404 in 7723ms
+ GET /apple-touch-icon.png 404 in 7703ms
+ GET /favicon.ico 200 in 14ms
+ ✓ Compiled in 5.4s (1332 modules)
+ ✓ Compiled in 2.1s (1332 modules)
+ ✓ Compiled in 2.7s (1332 modules)
+ ✓ Compiled in 2.1s (1332 modules)
+ ⨯ ./src/app/globals.css:106:1
+Syntax error: /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/src/app/globals.css Unexpected }
+
+  104 |     --sidebar-ring: 200 100% 60%; /* Ocean blue focus ring */
+  105 |   }
+> 106 | }
+      | ^
+  107 |
+ ⨯ ./src/app/globals.css:106:1
+Syntax error: /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/src/app/globals.css Unexpected }
+
+  104 |     --sidebar-ring: 200 100% 60%; /* Ocean blue focus ring */
+  105 |   }
+> 106 | }
+      | ^
+  107 |
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/src/app/globals.css': No serializer registered for PostCSSSyntaxError
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> PostCSSSyntaxError
+ ⨯ ./src/app/globals.css:106:1
+Syntax error: /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/src/app/globals.css Unexpected }
+
+  104 |     --sidebar-ring: 200 100% 60%; /* Ocean blue focus ring */
+  105 |   }
+> 106 | }
+      | ^
+  107 |
+ ⨯ ./src/app/globals.css:106:1
+Syntax error: /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/src/app/globals.css Unexpected }
+
+  104 |     --sidebar-ring: 200 100% 60%; /* Ocean blue focus ring */
+  105 |   }
+> 106 | }
+      | ^
+  107 |
+ ⨯ ./src/app/globals.css:106:1
+Syntax error: /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/src/app/globals.css Unexpected }
+
+  104 |     --sidebar-ring: 200 100% 60%; /* Ocean blue focus ring */
+  105 |   }
+> 106 | }
+      | ^
+  107 |
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/src/app/globals.css': No serializer registered for PostCSSSyntaxError
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> PostCSSSyntaxError
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/cache/webpack/client-development/4.pack.gz_' -> '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/cache/webpack/client-development/4.pack.gz'
+ ✓ Compiled in 3.3s (1332 modules)
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/dashboard/page.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/dashboard/page.js',
+  page: '/dashboard'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1242ms (1405 modules)
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/pages/_document.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/pages/_document.js'
+}
+ GET /dashboard 500 in 4595ms
+ ✓ Compiled / in 438ms (762 modules)
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/page.js:506:47)
+    at Object.<anonymous> (.next/server/app/page.js:509:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/pages/_document.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/pages/_document.js'
+}
+ GET / 500 in 982ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 547ms (1422 modules)
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ GET /_next/static/chunks/fallback/webpack.js 500 in 748ms
+ GET /_next/static/chunks/fallback/main.js 500 in 745ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 741ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 741ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 740ms
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/page.js:506:47)
+    at Object.<anonymous> (.next/server/app/page.js:509:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/pages/_document.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/pages/_document.js'
+}
+ GET / 500 in 96ms
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ GET /_next/static/chunks/fallback/webpack.js 500 in 314ms
+ GET /_next/static/chunks/fallback/main.js 500 in 313ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 312ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 318ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 319ms
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/page.js:506:47)
+    at Object.<anonymous> (.next/server/app/page.js:509:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/pages/_document.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/pages/_document.js'
+}
+ GET / 500 in 199ms
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ GET /_next/static/chunks/fallback/webpack.js 500 in 183ms
+ GET /_next/static/chunks/fallback/main.js 500 in 181ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 181ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 195ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 194ms
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/page.js:506:47)
+    at Object.<anonymous> (.next/server/app/page.js:509:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/pages/_document.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/pages/_document.js'
+}
+ GET / 500 in 119ms
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/@swc.js'
+}
+ GET /_next/static/chunks/fallback/webpack.js 500 in 158ms
+ GET /_next/static/chunks/fallback/main.js 500 in 157ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 158ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 157ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 157ms
+ ✓ Compiled in 1715ms (673 modules)
+ ✓ Compiled in 1661ms (669 modules)
+ ✓ Compiled in 948ms (669 modules)
+ ✓ Compiled in 874ms (669 modules)

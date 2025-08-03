@@ -1,0 +1,489 @@
+jamespares@Jamess-MacBook-Air ChinaProf. % cd chinaprof-app 
+jamespares@Jamess-MacBook-Air chinaprof-app % npm run dev
+
+> chinaprof-app@0.1.0 dev
+> next dev
+
+ ⚠ Warning: Found multiple lockfiles. Selecting /Users/jamespares/package-lock.json.
+   Consider removing the lockfiles at:
+   * /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/package-lock.json
+
+ ⚠ Port 3000 is in use by process 36539, using available port 3001 instead.
+   ▲ Next.js 15.4.5
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.3.7:3001
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 3.8s
+ ○ Compiling / ...
+ ✓ Compiled / in 3.7s (895 modules)
+ GET / 307 in 4485ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 2.2s (912 modules)
+ GET /dashboard 200 in 2652ms
+ ✓ Compiled /api/dashboard in 450ms (553 modules)
+ ✓ Compiled in 604ms (376 modules)
+ GET /favicon.ico 200 in 2044ms
+ ⨯ Error: The module '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/better-sqlite3/build/Release/better_sqlite3.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 131. This version of Node.js requires
+NODE_MODULE_VERSION 115. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+    at getDatabase (src/lib/db/database.ts:21:7)
+    at eval (src/lib/db/queries.ts:15:22)
+    at <unknown> (rsc)/./src/lib/db/queries.ts (/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/api/dashboard/route.js:65:1)
+    at eval (webpack-internal:///(rsc)/./src/app/api/dashboard/route.ts:6:73)
+    at <unknown> (rsc)/./src/app/api/dashboard/route.ts (/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/api/dashboard/route.js:43:1)
+    at __webpack_exec__ (.next/server/app/api/dashboard/route.js:195:39)
+    at <unknown> (.next/server/app/api/dashboard/route.js:196:83)
+    at <unknown> (.next/server/app/api/dashboard/route.js:196:47)
+    at Object.<anonymous> (.next/server/app/api/dashboard/route.js:199:3)
+  19 |   const dbPath = join(process.cwd(), 'chinaprof.db')
+  20 |
+> 21 |   db = new Database(dbPath)
+     |       ^
+  22 |
+  23 |   // Enable foreign key constraints
+  24 |   db.pragma('foreign_keys = ON') {
+  code: 'ERR_DLOPEN_FAILED',
+  page: '/api/dashboard'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1209ms (1263 modules)
+ GET /api/dashboard 500 in 5543ms
+ GET /dashboard 200 in 2443ms
+ GET /dashboard 200 in 51ms
+ ✓ Compiled in 5.9s (1155 modules)
+ GET /dashboard 200 in 270ms
+ ✓ Compiled in 1954ms (1155 modules)
+ GET /dashboard 200 in 218ms
+ ✓ Compiled in 1765ms (1155 modules)
+ GET /dashboard 200 in 541ms
+ ✓ Compiled in 1776ms (1155 modules)
+ GET /dashboard 200 in 171ms
+ ⨯ ./src/app/globals.css:106:1
+Syntax error: /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/src/app/globals.css Unexpected }
+
+  104 |     --sidebar-ring: 200 100% 60%; /* Ocean blue focus ring */
+  105 |   }
+> 106 | }
+      | ^
+  107 | 
+ ○ Compiling /_error ...
+ ⨯ ./src/app/globals.css:106:1
+Syntax error: /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/src/app/globals.css Unexpected }
+
+  104 |     --sidebar-ring: 200 100% 60%; /* Ocean blue focus ring */
+  105 |   }
+> 106 | }
+      | ^
+  107 | 
+ GET /dashboard 500 in 3957ms
+ GET /dashboard 500 in 27ms
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/src/app/globals.css': No serializer registered for PostCSSSyntaxError
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> PostCSSSyntaxError
+ ⨯ ./src/app/globals.css:106:1
+Syntax error: /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/src/app/globals.css Unexpected }
+
+  104 |     --sidebar-ring: 200 100% 60%; /* Ocean blue focus ring */
+  105 |   }
+> 106 | }
+      | ^
+  107 | 
+ ⨯ ./src/app/globals.css:106:1
+Syntax error: /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/src/app/globals.css Unexpected }
+
+  104 |     --sidebar-ring: 200 100% 60%; /* Ocean blue focus ring */
+  105 |   }
+> 106 | }
+      | ^
+  107 | 
+ ⨯ ./src/app/globals.css:106:1
+Syntax error: /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/src/app/globals.css Unexpected }
+
+  104 |     --sidebar-ring: 200 100% 60%; /* Ocean blue focus ring */
+  105 |   }
+> 106 | }
+      | ^
+  107 | 
+ GET /dashboard 500 in 56ms
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/src/app/globals.css': No serializer registered for PostCSSSyntaxError
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> PostCSSSyntaxError
+ ✓ Compiled /_error in 2.3s (1242 modules)
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/next.js'
+    at <unknown> (.next/server/app/dashboard/page.js:540:47)
+    at Object.<anonymous> (.next/server/app/dashboard/page.js:543:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/next.js',
+  page: '/dashboard'
+}
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1514ms (1233 modules)
+ ⨯ Error: Cannot find module './8548.js'
+Require stack:
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/webpack-runtime.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/pages/_document.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/require.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/load-components.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/utils.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/options.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/index.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/next.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:327)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:374) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/next.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/next.js'
+}
+ GET /dashboard 500 in 1701ms
+ GET /_next/static/webpack/3a3210ee91df7f95.webpack.hot-update.json 500 in 1660ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/next.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/next.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/next.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/next.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/next.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/next.js'
+}
+ GET /_next/static/chunks/fallback/webpack.js 500 in 122ms
+ GET /_next/static/chunks/fallback/main.js 500 in 119ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 117ms
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/next.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/next.js'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/next.js'
+    at <unknown> (.next/server/app/_not-found/page.js:475:47)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:478:3) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/vendor-chunks/next.js'
+}
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 64ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 65ms
+ ✓ Compiled /favicon.ico in 267ms (722 modules)
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/routes-manifest.json',
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 652ms
+ ⨯ Error: Cannot find module './4985.js'
+Require stack:
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/webpack-runtime.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/favicon.ico/route.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/require.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/load-components.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/utils.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/options.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/index.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/next.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/dashboard/page.js:2:7476)
+    at Object.<anonymous> (.next/server/app/dashboard/page.js:2:7533) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/dashboard'
+}
+ ⨯ Error: Cannot find module './8548.js'
+Require stack:
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/webpack-runtime.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/favicon.ico/route.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/require.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/load-components.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/utils.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/options.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/index.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/next.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:327)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:374) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /dashboard 500 in 369ms
+ ⨯ Error: Cannot find module './4985.js'
+Require stack:
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/webpack-runtime.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/favicon.ico/route.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/require.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/load-components.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/utils.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/options.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/index.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/next.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/_not-found/page.js:2:7898)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:2:7955) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './4985.js'
+Require stack:
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/webpack-runtime.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/favicon.ico/route.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/require.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/load-components.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/utils.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/options.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/index.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/next.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/_not-found/page.js:2:7898)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:2:7955) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './4985.js'
+Require stack:
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/webpack-runtime.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/favicon.ico/route.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/require.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/load-components.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/utils.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/options.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/index.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/next.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/_not-found/page.js:2:7898)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:2:7955) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './4985.js'
+Require stack:
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/webpack-runtime.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/favicon.ico/route.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/require.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/load-components.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/utils.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/options.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/index.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/next.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/_not-found/page.js:2:7898)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:2:7955) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './4985.js'
+Require stack:
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/webpack-runtime.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/favicon.ico/route.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/require.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/load-components.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/utils.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/options.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/index.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/next.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/_not-found/page.js:2:7898)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:2:7955) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /_next/static/chunks/fallback/webpack.js 500 in 172ms
+ GET /_next/static/chunks/fallback/main.js 500 in 170ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 168ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 182ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 180ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/routes-manifest.json',
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 108ms
+ ⨯ Error: Cannot find module './4985.js'
+Require stack:
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/webpack-runtime.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/favicon.ico/route.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/require.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/load-components.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/utils.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/options.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/index.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/next.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/dashboard/page.js:2:7476)
+    at Object.<anonymous> (.next/server/app/dashboard/page.js:2:7533) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/dashboard'
+}
+ ⨯ Error: Cannot find module './8548.js'
+Require stack:
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/webpack-runtime.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/favicon.ico/route.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/require.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/load-components.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/utils.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/options.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/index.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/next.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:327)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:374) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /dashboard 500 in 112ms
+ ⨯ Error: Cannot find module './4985.js'
+Require stack:
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/webpack-runtime.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/favicon.ico/route.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/require.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/load-components.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/utils.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/options.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/index.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/next.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/_not-found/page.js:2:7898)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:2:7955) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './4985.js'
+Require stack:
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/webpack-runtime.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/favicon.ico/route.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/require.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/load-components.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/utils.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/options.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/index.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/next.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/_not-found/page.js:2:7898)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:2:7955) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './4985.js'
+Require stack:
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/webpack-runtime.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/favicon.ico/route.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/require.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/load-components.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/utils.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/options.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/index.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/next.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/_not-found/page.js:2:7898)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:2:7955) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './4985.js'
+Require stack:
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/webpack-runtime.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/favicon.ico/route.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/require.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/load-components.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/utils.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/options.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/index.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/next.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/_not-found/page.js:2:7898)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:2:7955) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './4985.js'
+Require stack:
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/webpack-runtime.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/server/app/favicon.ico/route.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/require.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/load-components.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/utils.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/options.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/swc/index.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/config.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/next.js
+- /Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/_not-found/page.js:2:7898)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:2:7955) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /_next/static/chunks/fallback/webpack.js 500 in 182ms
+ GET /_next/static/chunks/fallback/main.js 500 in 181ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 181ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 180ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 179ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/jamespares/Documents/GitHub/ChinaProf./chinaprof-app/.next/routes-manifest.json',
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 128ms

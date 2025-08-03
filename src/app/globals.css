@@ -1,26 +1,210 @@
-@import "tailwindcss";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Crystal clear glass theme with colored background */
+    --background: 210 50% 88%; /* Light blue-grey background */
+    --foreground: 215 25% 27%; /* Deep slate text */
+    --card: 210 40% 96%; /* Translucent white cards lighter than background */
+    --card-foreground: 215 20% 25%; /* Dark slate card text */
+    --popover: 210 40% 96%; /* Translucent white popovers */
+    --popover-foreground: 215 20% 25%; /* Dark slate popover text */
+    --primary: 280 60% 75%; /* Lavender primary */
+    --primary-foreground: 210 40% 98%; /* Pure white primary text */
+    --secondary: 210 30% 85%; /* Light grey secondary */
+    --secondary-foreground: 215 25% 35%; /* Slate secondary text */
+    --muted: 210 25% 82%; /* Light grey muted */
+    --muted-foreground: 215 16% 47%; /* Medium slate muted text */
+    --accent: 285 55% 85%; /* Light lavender accent */
+    --accent-foreground: 215 25% 27%; /* Deep slate accent text */
+    --destructive: 0 84.2% 60.2%; /* Keep original red */
+    --destructive-foreground: 210 40% 98%;
+    --border: 214 32% 91%; /* Light crystal border */
+    --input: 214 32% 91%; /* Light crystal input border */
+    --ring: 280 60% 75%; /* Lavender focus ring */
+    --chart-1: 213 94% 68%; /* Sky blue charts */
+    --chart-2: 195 100% 75%; /* Cyan charts */
+    --chart-3: 220 70% 80%; /* Light blue charts */
+    --chart-4: 210 20% 85%; /* Light grey charts */
+    --chart-5: 215 25% 65%; /* Slate charts */
+    --radius: 0.75rem; /* Rounded corners */
+
+    /* Sidebar with crystal clear theme */
+    --sidebar-background: 210 45% 85%; /* Colored sidebar background */
+    --sidebar-foreground: 215 25% 35%; /* Slate text */
+    --sidebar-primary: 280 60% 75%; /* Lavender primary */
+    --sidebar-primary-foreground: 210 40% 98%; /* Pure white primary text */
+    --sidebar-accent: 212 100% 90%; /* Very light blue accent */
+    --sidebar-accent-foreground: 215 25% 27%; /* Deep slate accent text */
+    --sidebar-border: 214 32% 88%; /* Light crystal border */
+    --sidebar-ring: 280 60% 75%; /* Lavender focus ring */
+
+    /* Critical: Define the sidebar width variables that the component needs */
+    --sidebar-width: 12rem;
+    --sidebar-width-icon: 3rem;
+    --sidebar-width-mobile: 14rem;
+
+    /* Glass effect variables for translucent cards */
+    --glass-bg: 210 40% 95% / 0.75; /* Semi-transparent white lighter than background */
+    --glass-border: 214 32% 100% / 0.3; /* Very light semi-transparent border */
+    --glass-shadow: 215 25% 27% / 0.08; /* Subtle shadow */
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply text-foreground;
+    background: linear-gradient(135deg, hsl(210 50% 88%) 0%, hsl(215 45% 85%) 50%, hsl(220 40% 90%) 100%);
+    min-height: 100vh;
+  }
+  
+  /* Dark mode background */
+  .dark body {
+    background: linear-gradient(135deg, hsl(210 50% 4%) 0%, hsl(215 45% 6%) 50%, hsl(220 40% 8%) 100%);
+  }
+  
+  /* Glass effect classes for crystal clear aesthetic */
+  .glass-card {
+    background: hsla(var(--glass-bg));
+    border: 1px solid hsla(var(--glass-border));
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    box-shadow: 
+      0 8px 32px 0 hsla(var(--glass-shadow)),
+      inset 0 1px 0 0 hsla(210 40% 100% / 0.2);
+  }
+  
+  /* Dark mode glass effects */
+  .dark .glass-card {
+    background: hsla(var(--glass-bg));
+    border: 1px solid hsla(var(--glass-border));
+    box-shadow: 
+      0 8px 32px 0 hsla(var(--glass-shadow)),
+      inset 0 1px 0 0 hsla(210 40% 100% / 0.05);
+  }
+  
+  .glass-button {
+    background: linear-gradient(
+      135deg,
+      hsla(280 60% 75% / 0.9) 0%,
+      hsla(285 55% 78% / 0.8) 100%
+    );
+    border: 1px solid hsla(280 60% 80% / 0.3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 
+      0 2px 4px -1px hsla(var(--glass-shadow)),
+      inset 0 1px 0 0 hsla(210 40% 100% / 0.2);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .glass-button:hover {
+    background: linear-gradient(
+      135deg,
+      hsla(280 60% 70% / 0.95) 0%,
+      hsla(285 55% 75% / 0.9) 100%
+    );
+    box-shadow: 
+      0 4px 8px -2px hsla(var(--glass-shadow)),
+      inset 0 1px 0 0 hsla(210 40% 100% / 0.3);
+    transform: translateY(-1px);
+  }
+  
+  /* Special class for accent buttons */
+  .btn-accent {
+    @apply glass-button;
+  }
+  
+  /* Hide scrollbars */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Fix sidebar positioning for proper layout */
+  .group\/sidebar-wrapper {
+    display: flex !important;
+  }
+  
+  [data-slot="sidebar-gap"] {
+    transition: width 200ms ease-linear;
+  }
+  
+  /* When sidebar is collapsed (offcanvas), make gap zero */
+  .group\/sidebar-wrapper:has([data-state="collapsed"]) [data-slot="sidebar-gap"] {
+    width: 0 !important;
+  }
+  
+  /* When sidebar is expanded, give it proper space */
+  .group\/sidebar-wrapper:has([data-state="expanded"]) [data-slot="sidebar-gap"] {
+    width: 16rem !important;
+  }
+  
+  [data-slot="sidebar-container"] {
+    position: fixed !important;
+    left: 0 !important;
+    width: 16rem !important;
+    height: 100vh !important;
+    border-right: 1px solid hsl(var(--border)) !important;
+    transition: left 200ms ease-linear;
+  }
+  
+  /* Hide sidebar when collapsed */
+  .group\/sidebar-wrapper:has([data-state="collapsed"]) [data-slot="sidebar-container"] {
+    left: -16rem !important;
+  }
+}
+
+@layer base {
+  .dark {
+    /* Dark theme with colored background */
+    --background: 210 50% 4%; /* Very dark blue-grey background */
+    --foreground: 200 20% 92%; /* Light blue-grey text */
+    --card: 210 25% 8%; /* Dark translucent cards */
+    --card-foreground: 200 20% 92%; /* Light blue-grey card text */
+    --popover: 210 25% 8%; /* Dark translucent popovers */
+    --popover-foreground: 200 20% 92%; /* Light blue-grey popover text */
+    --primary: 280 60% 75%; /* Will be overridden by color theme */
+    --primary-foreground: 210 25% 8%; /* Dark primary text */
+    --secondary: 210 20% 15%; /* Dark blue-grey secondary */
+    --secondary-foreground: 200 25% 85%; /* Light blue-grey secondary text */
+    --muted: 210 20% 12%; /* Dark blue-grey muted */
+    --muted-foreground: 200 15% 65%; /* Medium blue-grey muted text */
+    --accent: 285 55% 85%; /* Will be overridden by color theme */
+    --accent-foreground: 200 20% 92%; /* Light accent text */
+    --destructive: 0 62.8% 30.6%; /* Keep original dark red */
+    --destructive-foreground: 210 40% 98%;
+    --border: 210 20% 20%; /* Dark blue-grey border */
+    --input: 210 20% 20%; /* Dark blue-grey input border */
+    --ring: 280 60% 75%; /* Will be overridden by color theme */
+    --chart-1: 280 60% 75%; /* Will be overridden by color theme */
+    --chart-2: 195 100% 75%; /* Cyan charts */
+    --chart-3: 220 70% 80%; /* Light blue charts */
+    --chart-4: 210 20% 85%; /* Light grey charts */
+    --chart-5: 215 25% 65%; /* Slate charts */
+
+    /* Dark mode sidebar */
+    --sidebar-background: 210 45% 6%; /* Very dark colored sidebar background */
+    --sidebar-foreground: 200 25% 85%; /* Light blue-grey text */
+    --sidebar-primary: 280 60% 75%; /* Will be overridden by color theme */
+    --sidebar-primary-foreground: 210 25% 8%; /* Dark primary text */
+    --sidebar-accent: 285 55% 20%; /* Dark accent */
+    --sidebar-accent-foreground: 200 25% 85%; /* Light accent text */
+    --sidebar-border: 210 25% 18%; /* Dark blue-grey border */
+    --sidebar-ring: 280 60% 75%; /* Will be overridden by color theme */
+
+    /* Glass effect variables for dark mode */
+    --glass-bg: 210 25% 8% / 0.8; /* Dark semi-transparent background */
+    --glass-border: 214 32% 30% / 0.5; /* Lighter semi-transparent border */
+    --glass-shadow: 0 0 0 / 0.2; /* Darker shadow */
+  }
 }
