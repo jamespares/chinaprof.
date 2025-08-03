@@ -4,9 +4,7 @@ import { useState, useEffect } from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Skeleton } from '@/components/ui/skeleton'
-import {
-  ArrowRight
-} from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 
@@ -60,8 +58,9 @@ export default function DashboardPage() {
       const controller = new AbortController()
       const timeoutId = setTimeout(() => controller.abort(), 5000) // 5 second timeout
 
-      const response = await fetch('/api/dashboard', {
-        signal: controller.signal
+      const response = await fetch('/api/dashboard?bypassCache=true', {
+        signal: controller.signal,
+        cache: 'no-store'
       })
 
       clearTimeout(timeoutId)
@@ -208,9 +207,7 @@ export default function DashboardPage() {
               calculations.
             </p>
             <Button asChild className="w-full btn-accent">
-              <Link href="/homework">
-                Open Homework
-              </Link>
+              <Link href="/homework">Open Homework</Link>
             </Button>
           </CardContent>
         </Card>
@@ -226,9 +223,7 @@ export default function DashboardPage() {
               Log common CN-ESL errors and view detailed analytics to target your teaching focus.
             </p>
             <Button asChild className="w-full btn-accent">
-              <Link href="/grammar-errors">
-                View Analytics
-              </Link>
+              <Link href="/grammar-errors">View Analytics</Link>
             </Button>
           </CardContent>
         </Card>
@@ -244,9 +239,7 @@ export default function DashboardPage() {
               Create tests, rapid score entry, and view ranked student performance tables.
             </p>
             <Button asChild className="w-full btn-accent">
-              <Link href="/weekly-tests">
-                Manage Tests
-              </Link>
+              <Link href="/weekly-tests">Manage Tests</Link>
             </Button>
           </CardContent>
         </Card>
@@ -262,9 +255,7 @@ export default function DashboardPage() {
               Paste essays for AI analysis with detailed feedback and error identification.
             </p>
             <Button asChild className="w-full btn-accent">
-              <Link href="/essay-marking">
-                Mark Essays
-              </Link>
+              <Link href="/essay-marking">Mark Essays</Link>
             </Button>
           </CardContent>
         </Card>
@@ -280,9 +271,7 @@ export default function DashboardPage() {
               Rich-text comments with evidence tracking and AI summary generation.
             </p>
             <Button asChild className="w-full">
-              <Link href="/comments">
-                Manage Comments
-              </Link>
+              <Link href="/comments">Manage Comments</Link>
             </Button>
           </CardContent>
         </Card>

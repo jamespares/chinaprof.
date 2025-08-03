@@ -1,9 +1,7 @@
 'use client'
 
 import * as React from 'react'
-import {
-  Settings as SettingsIcon
-} from 'lucide-react'
+import { Settings as SettingsIcon } from 'lucide-react'
 import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 

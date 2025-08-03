@@ -28,20 +28,20 @@ describe('/api/students', () => {
     const request = new NextRequest('http://localhost:3000/api/students')
     const response = await GET(request)
     const data = await response.json()
-    
+
     expect(response.status).toBe(200)
     expect(data).toEqual([])
   })
 
   it('POST creates a new student', async () => {
     const { POST } = await import('./route')
-    
+
     const requestBody = {
       name: 'Alice Chen',
       class: '5A',
       dob: '2013-05-15'
     }
-    
+
     const request = new NextRequest('http://localhost:3000/api/students', {
       method: 'POST',
       body: JSON.stringify(requestBody),
@@ -49,10 +49,10 @@ describe('/api/students', () => {
         'Content-Type': 'application/json'
       }
     })
-    
+
     const response = await POST(request)
     const data = await response.json()
-    
+
     expect(response.status).toBe(201)
     expect(data.id).toBeDefined()
     expect(typeof data.id).toBe('number')
@@ -63,7 +63,7 @@ describe('/api/students', () => {
     const request = new NextRequest('http://localhost:3000/api/students')
     const response = await GET(request)
     const data = await response.json()
-    
+
     expect(response.status).toBe(200)
     expect(data).toHaveLength(1)
     expect(data[0].name).toBe('Alice Chen')

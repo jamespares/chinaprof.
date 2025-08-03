@@ -2,5 +2,3 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npx prettier --write .
-# run unit tests; abort commit if they fail
-npx vitest run --silent

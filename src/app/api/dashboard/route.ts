@@ -5,11 +5,20 @@ import { dashboardQueries, subjectQueries } from '@/lib/db/queries'
 let dashboardCache: { data: Record<string, unknown>; timestamp: number } | null = null
 const CACHE_TTL = 5 * 60 * 1000 // 5 minutes in milliseconds
 
-export async function GET() {
+// Clear cache function (for development)
+export function clearDashboardCache() {
+  dashboardCache = null
+}
+
+export async function GET(request: Request) {
   try {
-    // Check cache first
+    // Check for cache bypass parameter
+    const url = new URL(request.url)
+    const bypassCache = url.searchParams.get('bypassCache') === 'true'
+
+    // Check cache first (unless bypassed)
     const now = Date.now()
-    if (dashboardCache && now - dashboardCache.timestamp < CACHE_TTL) {
+    if (!bypassCache && dashboardCache && now - dashboardCache.timestamp < CACHE_TTL) {
       return NextResponse.json(dashboardCache.data, {
         headers: {
           'Cache-Control': 'public, max-age=300', // 5 minutes browser cache

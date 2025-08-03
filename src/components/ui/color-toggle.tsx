@@ -22,7 +22,7 @@ interface ThemeColors {
 }
 
 const colorThemes: Record<ColorTheme, ThemeColors> = {
-  'lavender': {
+  lavender: {
     primary: '280 60% 75%',
     accent: '285 55% 85%',
     ring: '280 60% 75%',
@@ -65,7 +65,7 @@ const colorThemes: Record<ColorTheme, ThemeColors> = {
 }
 
 const themeNames: Record<ColorTheme, string> = {
-  'lavender': 'Lavender',
+  lavender: 'Lavender',
   'sky-blue': 'Sky Blue',
   'military-green': 'Military Green',
   'soft-orange': 'Soft Orange',
@@ -73,8 +73,8 @@ const themeNames: Record<ColorTheme, string> = {
 }
 
 const themeColors: Record<ColorTheme, string> = {
-  'lavender': '#C084FC',
-  'sky-blue': '#60A5FA', 
+  lavender: '#C084FC',
+  'sky-blue': '#60A5FA',
   'military-green': '#6B8E23',
   'soft-orange': '#FB923C',
   'china-red': '#E53E3E'
@@ -202,36 +202,36 @@ export function ColorToggle() {
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
         <DropdownMenuItem onClick={() => selectTheme('lavender')}>
-          <div 
-            className="mr-2 h-4 w-4 rounded border" 
+          <div
+            className="mr-2 h-4 w-4 rounded border"
             style={{ backgroundColor: themeColors.lavender }}
           />
           <span>Lavender</span>
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => selectTheme('sky-blue')}>
-          <div 
-            className="mr-2 h-4 w-4 rounded border" 
+          <div
+            className="mr-2 h-4 w-4 rounded border"
             style={{ backgroundColor: themeColors['sky-blue'] }}
           />
           <span>Sky Blue</span>
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => selectTheme('military-green')}>
-          <div 
-            className="mr-2 h-4 w-4 rounded border" 
+          <div
+            className="mr-2 h-4 w-4 rounded border"
             style={{ backgroundColor: themeColors['military-green'] }}
           />
           <span>Military Green</span>
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => selectTheme('soft-orange')}>
-          <div 
-            className="mr-2 h-4 w-4 rounded border" 
+          <div
+            className="mr-2 h-4 w-4 rounded border"
             style={{ backgroundColor: themeColors['soft-orange'] }}
           />
           <span>Soft Orange</span>
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => selectTheme('china-red')}>
-          <div 
-            className="mr-2 h-4 w-4 rounded border" 
+          <div
+            className="mr-2 h-4 w-4 rounded border"
             style={{ backgroundColor: themeColors['china-red'] }}
           />
           <span>China Red</span>
